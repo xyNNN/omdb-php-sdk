@@ -3,7 +3,7 @@
 [![Software License](https://img.shields.io/badge/license-LGPL%203.0-brightgreen.svg?style=flat-square)](LICENSE)
 
 The OmDbApi SDK written in PHP provides you an easy-to-use library to communicate with the RESTful API from www.omdbapi.com!
-It is based on the HTTP Client Guzzle to be as far as possible extensible.
+It is based on the HTTP Client Guzzle to be extensible as far as possible.
 
 Please have a look at the examples, to learn how to handle the ApiWrapper.
 
