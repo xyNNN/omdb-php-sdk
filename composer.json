@@ -1,0 +1,24 @@
+{
+  "name": "xynnn/omdb-php-sdk",
+  "license": "GNU LGPL v3.0",
+  "authors": [
+    {
+      "name": "Philipp Braeutigam",
+      "email": "philipp.braeutigam@googlemail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "OmDbApi\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "OmDbApi\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "stable",
+  "require": {
+    "guzzlehttp/guzzle": "~5.2"
+  }
+}
