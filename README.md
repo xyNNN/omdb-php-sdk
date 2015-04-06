@@ -7,7 +7,7 @@ It is based on the HTTP Client Guzzle to be as far as possible extensible.
 
 Please have a look at the examples, to learn how to handle the ApiWrapper.
 
-> Note: This sdk is still in beta phase. Feel free to report encountered issues!
+> Note: This SDK is still in development. Feel free to report encountered issues!
 
 ## Requirements
 
@@ -35,5 +35,5 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec euismod elit. 
 + [twitter/pbraeutigam](http://twitter.com/pbraeutigam)
 
 ## License
-Copyright (c) 2015 Philipp Bräutigam  
+Copyright (c) 2015 Philipp Bräutigam
 This repository is released under the GNU LGPL v3.0 license.
