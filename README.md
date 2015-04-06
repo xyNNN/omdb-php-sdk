@@ -48,5 +48,5 @@ Please have a look at the examples to learn how to handle the SDK. I will add so
 + [twitter/pbraeutigam](http://twitter.com/pbraeutigam)
 
 ## License
-Copyright (c) 2015 Philipp Bräutigam
+Copyright (c) 2015 Philipp Bräutigam  
 This repository is released under the GNU LGPL v3.0 license.
