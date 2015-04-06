@@ -5,7 +5,7 @@
 The OmDbApi SDK written in PHP provides you an easy-to-use library to communicate with the RESTful API from www.omdbapi.com!
 It is based on the HTTP Client Guzzle to be extensible as far as possible.
 
-Please have a look at the examples, to learn how to handle the ApiWrapper.
+Please have a look at the examples, to learn how to handle the SDK.
 
 > Note: This SDK is still in development. Feel free to report encountered issues!
 
@@ -15,11 +15,17 @@ Please have a look at the examples, to learn how to handle the ApiWrapper.
 
 ## Install
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec euismod elit. Suspendisse lacinia elit quis maximus placerat. Maecenas pulvinar at erat id condimentum. Aliquam vel dolor nulla. Nam lacinia turpis vel condimentum feugiat. Sed quis lorem in lectus pulvinar scelerisque sed nec dolor. Nulla euismod condimentum elit, quis ultricies sapien accumsan id. Suspendisse vehicula venenatis erat, nec finibus lorem tristique finibus. Mauris auctor convallis efficitur. Suspendisse at varius sapien. Aenean auctor volutpat rutrum. Cras mattis dui felis, non fermentum erat aliquam a. Nulla facilisi. Morbi vitae magna in elit gravida tincidunt. Vestibulum ut feugiat ipsum. Phasellus vel lorem ligula.
+### Using Composer
+
+    $ composer require xynnn/omdb-php-sdk
+
+### Cloning from Github
+
+    $ git clone https://github.com/xyNNN/omdb-php-sdk.git
 
 ## Usage
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc nec euismod elit. Suspendisse lacinia elit quis maximus placerat. Maecenas pulvinar at erat id condimentum. Aliquam vel dolor nulla. Nam lacinia turpis vel condimentum feugiat. Sed quis lorem in lectus pulvinar scelerisque sed nec dolor. Nulla euismod condimentum elit, quis ultricies sapien accumsan id. Suspendisse vehicula venenatis erat, nec finibus lorem tristique finibus. Mauris auctor convallis efficitur. Suspendisse at varius sapien. Aenean auctor volutpat rutrum. Cras mattis dui felis, non fermentum erat aliquam a. Nulla facilisi. Morbi vitae magna in elit gravida tincidunt. Vestibulum ut feugiat ipsum. Phasellus vel lorem ligula.
+The SDK
 
 ## Features
 
