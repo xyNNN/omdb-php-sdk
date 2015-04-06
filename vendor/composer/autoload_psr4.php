@@ -7,6 +7,7 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'React\\Promise\\' => array($vendorDir . '/react/promise/src'),
+    'OmDbApi\\Tests\\' => array($baseDir . '/tests'),
     'OmDbApi\\' => array($baseDir . '/src'),
     'GuzzleHttp\\Stream\\' => array($vendorDir . '/guzzlehttp/streams/src'),
     'GuzzleHttp\\Ring\\' => array($vendorDir . '/guzzlehttp/ringphp/src'),
