@@ -19,7 +19,7 @@ use InvalidArgumentException;
  *
  * @package OmDbApi\Request
  */
-class Request extends GuzzleRequest
+class Request extends GuzzleRequest implements RequestInterface
 {
     /** @var string TYPE_MOVIES */
     const TYPE_MOVIES = 'movie';
@@ -208,6 +208,34 @@ class Request extends GuzzleRequest
         if($query instanceof Query) {
             return $query->get('r');
         }
+    }
+
+    /**
+     * @return bool
+     */
+    public function isXml()
+    {
+        $isXml = false;
+        $query = $this->getQuery();
+        if($query instanceof Query) {
+            $isXml = ($query->get('r') == self::RESPONSE_XML);
+        }
+
+        return $isXml;
+    }
+
+    /**
+     * @return bool
+     */
+    public function isJson()
+    {
+        $isJson = false;
+        $query = $this->getQuery();
+        if($query instanceof Query) {
+            $isJson = ($query->get('r') == self::RESPONSE_JSON);
+        }
+
+        return $isJson;
     }
 
     /**

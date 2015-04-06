@@ -12,8 +12,8 @@ namespace OmDbApi;
 
 use Exception;
 use GuzzleHttp\ClientInterface;
-use GuzzleHttp\Message\RequestInterface;
 use OmDbApi\Exception\OmDbApiException;
+use OmDbApi\Request\RequestInterface;
 
 /**
  * Class OmDbApi
@@ -67,9 +67,7 @@ class OmDbApi
         try {
             $response = $client->send($request);
 
-            $formatParameter = $request->getQuery()->get('r');
-            $isXmlResponse = ($formatParameter == 'xml');
-            if ($isXmlResponse) {
+            if ($request->isXml()) {
                 return $response->xml();
             }
 
