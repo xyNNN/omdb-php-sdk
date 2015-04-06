@@ -25,7 +25,8 @@ Please have a look at the examples, to learn how to handle the SDK.
 
 ## Usage
 
-The SDK
+The SDK is built as easy as possible and works with OmDbApi\Request\Request object which is extended by the Guzzle Request object.
+Please have a look at the examples to learn how to handle the SDK. I will add some more informations about the usage later.
 
 ## Features
 
