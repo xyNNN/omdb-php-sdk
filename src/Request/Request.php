@@ -19,7 +19,7 @@ use InvalidArgumentException;
  *
  * @package OmDbApi\Request
  */
-class Request extends GuzzleRequest implements RequestInterface
+class Request extends GuzzleRequest
 {
     /** @var string TYPE_MOVIES */
     const TYPE_MOVIES = 'movie';
