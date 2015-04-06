@@ -34,6 +34,12 @@ Please have a look at the examples to learn how to handle the SDK. I will add so
 - [x] Fluent Interface support for the Request object
 - [x] Object-oriented approach to communicate with the RESTful API
 
+## What's to come
+
+- [ ] Test Coverage
+- [ ] Rich Object Models to map the responses in Object collections and/or objects
+- [ ] Enabling of Travis CI
+
 ## Authors
 
 **Philipp Bräutigam**
