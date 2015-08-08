@@ -13,4 +13,4 @@ if (!file_exists($file)) {
     throw new RuntimeException('Install dependencies to run test suite.');
 }
 $loader = require_once $file;
-$loader->add('Worktimley\\Tests', __DIR__);
+$loader->add('OmDbApi\\Tests', __DIR__);
